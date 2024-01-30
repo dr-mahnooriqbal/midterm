@@ -1,0 +1,13 @@
+#average of two numbers
+print("For Claculating Average of two numbers")
+num1=int(input("write first number"))
+num2=int(input("write second number"))
+print("Thus the average of above numbers is",(num1+num2)/2)
+
+
+
+#Calculating Area of a circle
+print("Area of a circle")
+print ("As area of circle is calculated as \nA=2pir^2\n where pi=3.14\nr=radius of a circle and, \n'2' is a constant")
+r=float(input("write the value of 'radius'"))
+print("Thus area of circle is \nA=",2*3.14*((r)*(r)))
