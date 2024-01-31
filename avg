@@ -1,13 +1,13 @@
-#average of two numbers
-print("For Claculating Average of two numbers")
-num1=int(input("write first number"))
-num2=int(input("write second number"))
-print("Thus the average of above numbers is",(num1+num2)/2)
+#Calculating average of two numbers
+print("Average of numbers is calculated as:\nAverage=Sum of values/Quantity of values")
+num1=int(input("Write fisrt number"))
+num2=int(input("Write second number"))
+a=((num1+num2)/2)
+print('Thus average of above numbers is',(a))
 
+#Calculating area of a Circle
+print("Area of a circle is calculated as:\n2πr^2\n where,\n2 is a constant \n π=3.147 \n r=radius of the circle ")
+r=float(input("Enter Radius of the Circle"))        
+a=(2*3.14*(r*r))
+print("Thus,Radius of the circle is",(a))
 
-
-#Calculating Area of a circle
-print("Area of a circle")
-print ("As area of circle is calculated as \nA=2pir^2\n where pi=3.14\nr=radius of a circle and, \n'2' is a constant")
-r=float(input("write the value of 'radius'"))
-print("Thus area of circle is \nA=",2*3.14*((r)*(r)))
