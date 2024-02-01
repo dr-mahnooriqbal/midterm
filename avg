@@ -11,3 +11,13 @@ r=float(input("Enter Radius of the Circle"))
 a=(2*3.14*(r*r))
 print("Thus,Radius of the circle is",(a))
 
+#Passing arguments in functions' parameters
+def info(fnmae,lname,contact,city):
+    info()
+fname=input("enter your first name")
+lname=input("enter your last name")
+contact=input("enter contact number")
+city=input("enter your city name")
+print("my name is"+" "+fname+" "+lname)
+print("my conatact number is"+" "+contact)
+print ("i live in "+" "+city)
